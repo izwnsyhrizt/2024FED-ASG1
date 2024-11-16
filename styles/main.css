@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #eeeeee;
+    background-color: #E3E9FE;
 }
 
 .video-container {
@@ -21,13 +21,12 @@ header {
     align-items: center;
     width: 100%;
     top: 0;
-    padding: 2em 3em; /* Add spacing for the header */
+    padding: 2em 2.5em;
     box-sizing: border-box;
-    margin-top: 1em;
 }
 
 header img {
-    max-width: 200px; /* Adjust image size */
+    max-width: 250px;
 }
 
 .navlist {
@@ -39,18 +38,26 @@ header img {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 2em; /* Space between list items */
+    gap: 2em; 
 }
 
 .navlist li {
+    font-size: 35px;
     color: white;
-    font-size: 1.2em;
     cursor: pointer;
     transition: color 0.3s ease;
+    font-weight:bolder;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+    padding: 0.5em;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    font-family: playfair display;
 }
 
 .navlist li:hover {
-    color: #ffcc00; /* Highlight effect on hover */
+    color: #ffcc00;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
 }
 
 video {
