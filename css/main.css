@@ -80,7 +80,7 @@ video {
 .banner-box{
     background-color: #eeeeee;
     width:80%;
-    height:6em;
+    height:8em;
     display:flex;
     justify-content: center;
     align-items: center; 
@@ -90,11 +90,12 @@ video {
     display: inline-block;
     width: 40%;
     height: 3em;
+    padding:0;
     background-color: #C0DEEE;
     border-radius: 10px;
-    font-size: 1.2rem;
-    font-weight: bolder;
-    color: white;
+    font-size: 1.5rem;
+    font-weight:900;
+    color: black;
     text-align: center;
     line-height: 3em;
     text-decoration: none;
@@ -104,7 +105,7 @@ video {
 }
 
 .banner-button:hover {
-    background-color: #A7BBC7; /* Or your preferred hover color */
+    background-color: #A7BBC7;
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.05);
 }
@@ -114,10 +115,70 @@ video {
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .release-container h1{
     font-size: 40px;
     font-weight: bolder;
 }
+
+.album-cover{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-cover img{
+    width:20em;
+}
+
+.album-cover h2{
+    margin-bottom: 5px;
+}
+
+
+.album-cover p{
+    margin:0;
+}
+
+.youtube-button {
+    font-size: 1.2rem;
+    font-weight:900;
+    width:100%;
+    display: inline-block;
+    padding: 0.8em 1em;
+    background-color: #C0DEEE;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top:20px;
+}
+
+.youtube-button:hover {
+    background-color: #A7BBC7; 
+    transform: scale(1.05); 
+}
+
+.release-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+}
+
+.album-cover, .youtube-container {
+    flex: 1;
+}
+
+.youtube-container iframe {
+    width: 750px;
+    height: 460px;
+}
+
 
