@@ -1,6 +1,7 @@
 body {
     background-color: #E3E9FE;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
 }
 
 .video-container {
@@ -180,5 +181,84 @@ video {
     width: 750px;
     height: 460px;
 }
+
+.W2E-walk{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-top:6em;
+}
+
+.carousel-container {
+    position: relative;
+    width: 80%;  /* Adjust width of the carousel */
+    height: 80vh;  /* Adjust height of the carousel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;  /* Centers the carousel on the page */
+    flex-direction: column;
+    margin-top: 5em;
+}
+
+.carousel-items {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;  /* Smooth transition */
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden; /* Initially hide the slides */
+    transition: opacity 1s ease, visibility 0s linear 1s; /* Smooth transition for opacity */
+    min-width: 100%;
+}
+
+.carousel-item.active {
+    opacity: 1; /* Make the active slide fully visible */
+    visibility: visible; /* Ensure it’s visible */
+    transition: opacity 1s ease, visibility 0s linear 0s; /* Immediate visibility transition for active */
+}
+
+
+.carousel-item iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transform: translateY(-50%);
+    z-index: 3;  /* Ensure buttons are above the carousel items */
+}
+
+.prev {
+    left: -50px;  /* Place the previous button outside the container on the left */
+}
+
+.next {
+    right: -50px;  /* Place the next button outside the container on the right */
+}
+
+.carousel-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
 
 
