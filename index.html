@@ -64,13 +64,16 @@
         <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
         <div class="carousel-items">
             <div class="carousel-item">
-                <iframe src="https://www.youtube.com/embed/6_AGRBNKPoc?si=1Sz2x9cXo1AIbD6Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/6_AGRBNKPoc?si=1Sz2x9cXo1AIbD6Y" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="carousel-item">
-                <iframe src="https://www.youtube.com/embed/VzayimarIog?si=kotz3ntlxCdYBeZJ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/VzayimarIog?si=kotz3ntlxCdYBeZJ" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <div class="carousel-item">
-                <iframe src="https://www.youtube.com/embed/hUnnAhAfTZI?si=7y6nD3ULJxO9WSuz" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/hUnnAhAfTZI?si=7y6nD3ULJxO9WSuz" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
         <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
@@ -79,14 +82,34 @@
     <div class="gallery-container">
         <h1>Gallery</h1>
         <img class="w2e-image" src="images/W2E-grp1.jpg" alt="W2E-Band">
-        <video autoplay loop muted class="w2e-video" src="images/w2e-video2.mp4" alt="W2E-Video"></video>
+        <video autoplay loop muted class="w2e-image" src="images/w2e-video2.mp4" alt="W2E-Video"></video>
         <img class="w2e-image" src="images/W2E-grp2.webp" alt="W2E-Band">
         <img class="w2e-image" src="images/W2E-grp3.jpg" alt="W2E-Band">
     </div>
 
+    <div class="signup-container">
+        <h1>Sign up to receive updates</h1>
+        <form>
+            <div class="signup">
+                <input class="signup-input" type="email" placeholder="Email Address">
+                <select class="signup-input">
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="usa">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                    <option value="india">India</option>
+                </select>
+            </div>
+            <button type="submit" class="signup-submit">Submit</button>
+        </form> 
+    </div>
+
     <footer>
-        
+
     </footer>
+
 </body>
-    <script src="js/main.js"></script>
+<script src="js/main.js"></script>
+
 </html>
