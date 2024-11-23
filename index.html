@@ -91,8 +91,8 @@
         <h1>Sign up to receive updates</h1>
         <form>
             <div class="signup">
-                <input class="signup-input" type="email" placeholder="Email Address">
-                <select class="signup-input">
+                <input class="signup-input" type="email" placeholder="Email Address" required>
+                <select class="signup-input" required>
                     <option value="" disabled selected>Select your country</option>
                     <option value="usa">United States</option>
                     <option value="uk">United Kingdom</option>
@@ -102,13 +102,23 @@
                 </select>
             </div>
             <button type="submit" class="signup-submit">Submit</button>
-        </form> 
+        </form>
     </div>
 
     <footer>
-
+        <p>© 2024 Wave to Earth. All Rights Reserved.</p>
+        <div class="footer-social-icons">
+            <a href="https://www.instagram.com/wave_to_earth/" target="_blank" aria-label="Instagram">
+                <img src="images/instagram.png" alt="Instagram" />
+            </a>
+            <a href="https://www.youtube.com/channel/wave_to_earth/" target="_blank" aria-label="YouTube">
+                <img src="images/youtube.png" alt="YouTube" />
+            </a>
+            <a href="https://twitter.com/wave_to_earth" target="_blank" aria-label="Twitter">
+                <img src="images/twitter.png" alt="Twitter" />
+            </a>
+        </div>
     </footer>
-
 </body>
 <script src="js/main.js"></script>
 
