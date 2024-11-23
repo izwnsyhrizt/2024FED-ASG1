@@ -1,3 +1,19 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const currentPage = window.location.pathname;
+
+    const links = document.querySelectorAll('.navlist a');
+
+    if (currentPage.includes("index.html")) {
+        links.forEach(link => {
+            link.style.color = "white";
+        });
+    } else {
+        links.forEach(link => {
+            link.style.color = "black";
+        });
+    }
+});
+
 let currentSlide = 0;
 const slides = document.querySelectorAll('.carousel-item');
 const totalSlides = slides.length;
