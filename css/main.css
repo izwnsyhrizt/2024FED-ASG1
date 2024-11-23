@@ -53,7 +53,6 @@ header img {
 
 .navlist a:hover {
     background-color: rgba(255, 255, 255, 0.2);
-    color: #ffcc00;
 }
 
 .video-container {
@@ -339,16 +338,16 @@ footer{
 .footer-social-icons {
     display: flex;
     justify-content: center;
-    gap: 1.5em; /* Space between the icons */
+    gap: 1.5em; 
 }
 
 .footer-social-icons a img {
-    width: 40px; /* Adjust size of icons */
-    height: 40px; /* Maintain uniform dimensions */
+    width: 40px; 
+    height: 40px; 
     transition: transform 0.3s ease;
 }
 
 .footer-social-icons a img:hover {
-    transform: scale(1.2); /* Slightly enlarge on hover */
+    transform: scale(1.2); 
 }
 
