@@ -351,3 +351,155 @@ footer{
     transform: scale(1.2); 
 }
 
+.album{
+    width:100%;
+}
+
+.album-container{
+    align-items: center;
+    display: flex;
+    height: 400px;
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.album-item{
+    height:250px;
+    width: 250px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    z-index: 0;
+    border-radius: 30px;
+    background-size: contain;
+}
+
+.album-1{
+    left: 0;
+    opacity:.4;
+    transform: translateX(-50%);
+}
+
+
+.album-2, .album-4{
+    height: 300px;
+    opacity: 0.8;
+    width: 300px;
+    z-index: 1;
+}
+
+.album-2{
+    left:20%;
+    transform:translateX(-50%);
+}
+
+.album-3{
+    box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
+    height:350px;
+    width: 350px;
+    opacity:1;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index:2;
+}
+
+.album-4{
+    left:80%;
+    transform:translateX(-50%)
+}
+
+.album-5{
+    left:100%;
+    opacity:.4;
+    transform:translateX(-50%);
+}
+
+.album-controls{
+    display:flex;
+    justify-content: center;
+    margin: 25px 0;
+    height: 100px;
+}
+
+.album-controls button{
+    background-color: transparent;
+    border:0;
+    cursor:pointer;
+    font-size: 30px;
+    margin: 0 50px;
+    padding: 0 12px;
+    text-transform: capitalize;
+}
+
+.album-controls-button:focus{
+    outline:none;
+}
+
+.album-controls-previous{
+    position:relative;
+}
+
+.album-controls-previous::before{
+    border: solid #000;
+    border-width: 0 5px 5px 0;
+    content: '';
+    display: inline-block;
+    height:5px;
+    left:-30px;
+    padding: 10px;
+    position: absolute;
+    top: 25%;
+    transform: rotate(135deg) translateY(-50%);
+    transition: left 0.15s ease-in-out;
+    width: 5px;
+}
+
+.album-controls-previous:hover::before{
+    left:-40px;
+}
+
+.album-controls-next{
+    position:relative;
+}
+
+.album-controls-next::before{
+    border: solid #000;
+    border-width: 0 5px 5px 0;
+    content: '';
+    display: inline-block;
+    height:5px;
+    right:-30px;
+    padding: 10px;
+    position: absolute;
+    bottom: 25%;
+    transform: rotate(-45deg) translateY(-50%);
+    transition: right 0.15s ease-in-out;
+    width: 5px;
+}
+
+.album-controls-previous:hover::before{
+    right:-40px;
+}
+
+.album-nav{
+    bottom: -15px;
+    display:flex;
+    justify-content: center;
+    list-style: none;
+    padding:0;
+    position:absolute;
+    width:100%;
+}
+
+.album-nav li{
+    background: #ccc;
+    border-radius: 50%;
+    height: 10px;
+    margin: 0 16px;
+    width:10px;
+}
+
+.album-nav li.album-item-selected{
+    background: #555;
+}
