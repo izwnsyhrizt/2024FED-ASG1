@@ -61,6 +61,7 @@ https://whszephyr.com/7324/ae wave-to-earth-how-the-korean-boy-band-conquered-gl
 https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg
 https://kindie.fandom.com/wiki/Wave_to_Earth
 https://www.flaticon.com
+https://youtu.be/JX5qDzWDF4U?si=Mw8FWPw12gVMr9Yk
 
 ### Media
 - The photos used in this site were obtained from ...

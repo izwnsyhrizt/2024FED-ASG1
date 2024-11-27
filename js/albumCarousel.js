@@ -64,6 +64,15 @@ class Carousel {
             });
         });
     }
+
+    makeAlbumsClickable() {
+        this.carouselArray.forEach((album, index) => {
+            album.addEventListener("click", () => {
+                const albumId = index + 1;
+                window.location.href = `/album${albumId}.html`;
+            });
+        });
+    }
 }
 
 const albumContainer = document.querySelector(".album-container");
@@ -73,3 +82,4 @@ const albumControls = ["previous", "next"];
 const exampleCarousel = new Carousel(albumContainer, albumItems, albumControls);
 exampleCarousel.setControls();
 exampleCarousel.useControls();
+exampleCarousel.makeAlbumsClickable();
