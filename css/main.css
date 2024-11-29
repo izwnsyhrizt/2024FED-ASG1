@@ -509,20 +509,19 @@ footer{
 .music-container{
     display: flex;
     justify-content: center;
-    gap:6em;
+    gap:8em;
     padding:3em;
 }
 
 .music-album{
-    width: 400px;
+    width: 500px;
 
 }
 
 .music-info{
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    font-size:18px;
+    gap: 4em;
 }
 
 .music-info h1{
@@ -533,6 +532,7 @@ footer{
     margin:0px;
     padding:0;
     list-style-position: inside;
+    font-size:26px;
 }
 
 .music-video{
@@ -541,6 +541,23 @@ footer{
     padding:3em;
 }
 
+/* tour.html */
+.tour-container{
+    padding:3em;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-container img{
+    margin-bottom: 2em;
+}
+
+.tour-container h1{
+    text-transform: uppercase;
+    margin:0;
+}
 
 
     
