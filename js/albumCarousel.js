@@ -1,19 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const currentPage = window.location.pathname;
-
-    const links = document.querySelectorAll('.navlist a');
-
-    if (currentPage.includes("index.html") || currentPage === "/") {
-        links.forEach(link => {
-            link.style.color = "white";
-        });
-    } else {
-        links.forEach(link => {
-            link.style.color = "black";
-        });
-    }
-});
-
 class Carousel {
     constructor(container, items, controls) {
         this.carouselContainer = container;
@@ -79,7 +63,7 @@ const albumContainer = document.querySelector(".album-container");
 const albumItems = document.querySelectorAll(".album-item");
 const albumControls = ["previous", "next"];
 
-const exampleCarousel = new Carousel(albumContainer, albumItems, albumControls);
-exampleCarousel.setControls();
-exampleCarousel.useControls();
-exampleCarousel.makeAlbumsClickable();
+const albumCarousel = new Carousel(albumContainer, albumItems, albumControls);
+albumCarousel.setControls();
+albumCarousel.useControls();
+albumCarousel.makeAlbumsClickable();

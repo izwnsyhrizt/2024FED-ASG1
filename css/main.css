@@ -504,3 +504,43 @@ footer{
 .album-nav li.album-item-selected{
     background: #555;
 }
+
+/* music-albums */
+.music-container{
+    display: flex;
+    justify-content: center;
+    gap:6em;
+    padding:3em;
+}
+
+.music-album{
+    width: 400px;
+
+}
+
+.music-info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size:18px;
+}
+
+.music-info h1{
+    margin:0px;
+}
+
+.music-info ol{
+    margin:0px;
+    padding:0;
+    list-style-position: inside;
+}
+
+.music-video{
+    display:flex;
+    justify-content: center;
+    padding:3em;
+}
+
+
+
+    
