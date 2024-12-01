@@ -15,12 +15,21 @@ header {
     box-sizing: border-box;
 }
 
-#header{
-    position: absolute;
-}
-
 header img {
     max-width: 250px;
+}
+
+#header-index{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    justify-content: end;
+}
+
+#header-about{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navlist {
@@ -65,6 +74,14 @@ header img {
 video {
     width: 100%;
     height: auto;
+}
+
+#logo{
+    position: absolute;
+    z-index:1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .banner-container{
