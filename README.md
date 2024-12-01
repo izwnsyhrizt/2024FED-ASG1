@@ -112,31 +112,8 @@ https://www.figma.com/design/dNQ1mqD4V7rwt45iP1eTV3/FED-Asg1---Wave-to-Earth-Web
 
 ### Browser and Device Testing
 
-#### Desktop Browsers:
-- Test the website on popular desktop browsers such as:
-  - **Google Chrome**: Ensure proper rendering of the layout, functionality, and responsiveness.
-  - **Mozilla Firefox**: Verify that features like animations and interactivity work as expected.
-  - **Microsoft Edge**: Confirm compatibility and proper display of the website’s design.
-  - **Safari (Mac)**: Ensure that there are no issues with font rendering or page load speeds.
-
-#### Mobile Browsers:
-- Test on mobile versions of the following browsers:
-  - **Chrome** (Android): Ensure that the website is responsive and all touch interactions work smoothly.
-  - **Safari** (iOS): Verify that navigation, form submissions, and media elements function correctly on iPhones and iPads.
-
-#### Screen Sizes:
-- **Large Screens (Desktop)**: Ensure that the layout adapts to larger screen sizes without breaking or overflowing.
-- **Medium Screens (Tablets)**: Test that the content adjusts appropriately, with touch-friendly interactions.
-- **Small Screens (Smartphones)**: Verify that the mobile version of the website is responsive, with easy-to-read text and functional buttons.
-
-### Discovered Issues
-- **Problem with Form Validation**: On mobile devices, the email input field sometimes does not trigger the "invalid email" message when an incorrect email format is entered. This is a minor bug that needs further investigation.
-- **Navigation on Smaller Screens**: The navigation menu occasionally overlaps with page content on very small screen sizes (e.g., 320px width). This will be addressed by adjusting the z-index in the CSS.
-- **Video Player Controls**: The video player in the "Music" section occasionally does not load the custom play/pause controls on slower connections. The fallback controls work fine, but a performance tweak is needed for faster loading of custom elements.
-
-### Future Testing Considerations
-- **Cross-browser Testing**: Additional testing on browsers like Opera and mobile-specific browsers will be conducted to ensure broader compatibility.
-- **Accessibility Testing**: A comprehensive check for screen reader compatibility and keyboard navigation will be done to improve accessibility for all users.
+- **Navigation on Smaller Screens**: The navigation menu occasionally overlaps with page content on very small screen sizes.
+- **Video Player Controls**: For album and video carousel had to adjust the next and previous as it was all over the place when changing screens.
 
 ## Credits
 
