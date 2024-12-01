@@ -1,69 +1,158 @@
 # FED_S10257383F_Izwan_Asg1_Website
 
-This project is a website for the band, wave to earth. This site is for fans or potential fans wishing to learn more about the band, such as their latest releases, music videos, and even book their tickets! In the homepage, they are able to see many pictures and videos of the band performing or their photoshoots. They can also view the band's latest release, and directed projects. Furthermore, they can also input their email and country to receive updates on the band. an In the music page, They can scroll through wave to earth's entire discography, including their albums and singles. In the tour page, they are able to view the upcoming world tour, with dates, locations, and are able to book tickets. In the about page, users are able to learn more about the band, and each and every member, with photos and descriptions. Each page also has a footer directing to the band's social media.
+The **Wave to Earth website** is a user-friendly platform created to **connect the band with their fans and introduce their music to new audiences.** Designed for users of all ages, the site provides an immersive experience where users can **explore the band's music, watch videos, view many photos and learn about upcoming tours. You are even able to book tickets!** Featuring dedicated sections for the band and each band member, users can **delve into their personal stories, roles, and contributions to the group**, making it easy to connect on a deeper level. With quick access to streaming platforms, concert tickets, and social media links, the website ensures **users stay engaged and up-to-date with Wave to Earth’s journey**. Whether you're an existing fan or a first-time visitor, this site is the ultimate hub for **discovering the band’s music and staying connected to their world.**
 
 ## Design Process
- 
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+The website is designed for fans and potential new followers of the band **Wave to Earth**, a 3-member music group with a diverse style ranging from rock to indie pop. The website's primary purpose is to provide an engaging platform where users can **discover the band's music, tour dates, book tickets, and learn more about the band and its members.** It’s a place for fans to **connect with the band and stay updated on their latest activities and performances.**
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
+### Target Audience:
+
+- **Wave to Earth Fans**: Fans of Wave to Earth who follow the band's music and want to stay up-to-date with their latest releases and concerts.
+- **Concertgoers**: Users who may be interested in attending upcoming concerts and want to purchase tickets and learn more about the band's live shows.
+- **General Public**: New visitors who are curious about the band and may want to explore their music and learn about the band
+
+### Goals:
+
+- **Discover Music**: Users want to listen to the band’s latest singles, albums, and see what the band is all about musically.
+- **About the tour**: Fans want to check upcoming concerts, including dates and locations, and easily book tickets.
+- **Learn About the Band**: Users are interested in the band's story and the individual members, allowing for a deeper connection with the band.
+- **Stay Informed**: Users want to subscribe to updates to stay informed about future music releases, concerts, and news.
+
+### How the Website Achieves These Goals:
+- **Music Discovery**: The website features a music tab, where users can discover all the albums and singles and embedded music videos for easy access to the band’s latest tracks and albums.
+- **Tour Information**: The tour section allows users to easily check for upcoming shows and provides a direct link to purchase tickets.
+- **Band Information**: You can learn about the band and each member has a dedicated portion with information and pictures to give users a deeper understanding of the group.
+- **Email Sign-Up**: A subscription form is provided for users to opt into newsletters, keeping them up to date with the latest band news and events.
+- **Social Media Links**: The website includes social media icons for fans to follow the band on platforms like Instagram, Twitter, and YouTube.
+
+### User Stories:
+
+- As a music fan, I want to discover the band's music, so that I can possibly enjoy their music
+- As a fan/concertgoer, I want to view the band’s upcoming tour dates and purchase tickets, so that I can attend a show.
+- As a potential fan, I want to learn more about the band and band members, so that I can connect with their story and understand the music better.
+- As a fan, I want to sign up for email updates, so that I can be notified of new music, concerts, and news.
+- As a fan, I want to follow the band on Instagram, YouTube, and Twitter, so that I can stay connected with them on social media.
+
+### Wireframe:
+https://www.figma.com/design/dNQ1mqD4V7rwt45iP1eTV3/FED-Asg1---Wave-to-Earth-Website-Wireframe?node-id=0-1&t=7Z786rCbCYpp6W5o-1
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+- **Music Discovery**: Allows users to scroll through the band's discography, see latest releases and directed projects, giving them easy access to explore the band's music.
+- **Tour Information**: Provides a section where fans can view upcoming concert dates and venues, and purchase tickets directly through integrated links.
+- **Band Information**: Displays detailed information with many pictures and videos about the band and each band member, their roles, and personal stories to help fans connect with the group.
+- **Email Signup**: A simple form that lets users subscribe to newsletters for updates about new music, tour announcements, and other band-related news.
+- **Social Media**: Users can follow the band on social media platforms like Instagram, YouTube, and Twitter directly from the website, keeping them connected to the band’s updates.
 
 ### Features Left to Implement
-- Another feature idea
+
+- **Fan Merchandise Store**: An online shop to sell band merchandise, such as T-shirts, posters, and albums, allowing fans to purchase items and support the band.
+- **Fan Forum**: A community section where fans can interact, share thoughts on the band’s music, upcoming tours, or even meet other fans.
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+### HTML
+- **[HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)**: The standard markup language for creating web pages, used for structuring the content of the website, including text, images, and links.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+### CSS
+- **[CSS3](https://www.w3.org/TR/CSS/)**: Used for styling the website, including layouts, colors, typography, and animations, to create an engaging and visually appealing user experience.
 
+### JavaScript
+- **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**: Used for interactivity on the website, such as handling user inputs and dynamically updating content.
+
+### GitHub
+- **[GitHub](https://github.com/)**: A platform for version control and collaboration, used to manage the project’s codebase.
+
+### Figma
+- **[Figma](https://www.figma.com/)**: A design tool used to create wireframes
 
 ## Testing
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+### User Story Testing Scenarios
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### 1. Music Discovery
+- **Scenario**: As a music fan, I want to discover the band's music, so that I can possibly enjoy their music
+  1. Go to the "Home" page.
+  2. Verify that the latest release is displayed, and user is able to watch the embedded video or press the stream button to go to the youtube link.
+  3. Verify that directed projects is displayed, and user can watch the embedded youtube video, and use the carousel to scroll between the videos.
+  4. Go to "Music" Page.
+  5. Try to use the albums carousel to verify that its functional and users can scroll through the different albums.
+  6. Try to click the album to verify that you are able to see go view the album description.
+  7. Verify that album cover, title and tracklist is present in album description.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#### 2. Tour Date and Ticket Purchase
+- **Scenario**: As a concertgoer, I want to view the band’s upcoming tour dates and purchase tickets, so that I can attend a show.
+  1. Go to the "Tour" page.
+  2. Verify that the upcoming concert dates, venues, and times are displayed clearly.
+  3. Click on Book to verify that it redirects to the ticketing platform (eg. Ticketmaster)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+#### 3. Band Information
+- **Scenario**: As a potential fan, I want to learn more about the band and band members, so that I can connect with their story and understand the music better.
+  1. Go to the "About" page.
+  2. Verify that the band has group photos, and a group biography.
+  3. Verify that each band member has photos, name, role in the band, and a brief biography.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#### 4. Email Updates
+- **Scenario**: As a fan, I want to sign up for email updates, so that I can be notified of new music, concerts, and news.
+  1. Go to the "Sign Up" section.
+  2. Try to submit a form with either empty email, empty country or both to verify error message occurs.
+  3. Enter a valid email address and country and submit the form to verify that when submitted, there is no error.
+
+
+
+#### 5. Social Media
+- **Scenario**: As a fan, I want to follow the band on Instagram, YouTube, and Twitter, so that I can stay connected with them on social media.
+  1. Go to the footer in any page.
+  2. Click on the Instagram, YouTube, and Twitter icons.
+  3. Verify that each click opens the respective social media platform in a new tab.
+  4. Verify that the links lead to the correct social media profiles for Wave to Earth.
+
+### Browser and Device Testing
+
+#### Desktop Browsers:
+- Test the website on popular desktop browsers such as:
+  - **Google Chrome**: Ensure proper rendering of the layout, functionality, and responsiveness.
+  - **Mozilla Firefox**: Verify that features like animations and interactivity work as expected.
+  - **Microsoft Edge**: Confirm compatibility and proper display of the website’s design.
+  - **Safari (Mac)**: Ensure that there are no issues with font rendering or page load speeds.
+
+#### Mobile Browsers:
+- Test on mobile versions of the following browsers:
+  - **Chrome** (Android): Ensure that the website is responsive and all touch interactions work smoothly.
+  - **Safari** (iOS): Verify that navigation, form submissions, and media elements function correctly on iPhones and iPads.
+
+#### Screen Sizes:
+- **Large Screens (Desktop)**: Ensure that the layout adapts to larger screen sizes without breaking or overflowing.
+- **Medium Screens (Tablets)**: Test that the content adjusts appropriately, with touch-friendly interactions.
+- **Small Screens (Smartphones)**: Verify that the mobile version of the website is responsive, with easy-to-read text and functional buttons.
+
+### Discovered Issues
+- **Problem with Form Validation**: On mobile devices, the email input field sometimes does not trigger the "invalid email" message when an incorrect email format is entered. This is a minor bug that needs further investigation.
+- **Navigation on Smaller Screens**: The navigation menu occasionally overlaps with page content on very small screen sizes (e.g., 320px width). This will be addressed by adjusting the z-index in the CSS.
+- **Video Player Controls**: The video player in the "Music" section occasionally does not load the custom play/pause controls on slower connections. The fallback controls work fine, but a performance tweak is needed for faster loading of custom elements.
+
+### Future Testing Considerations
+- **Cross-browser Testing**: Additional testing on browsers like Opera and mobile-specific browsers will be conducted to ensure broader compatibility.
+- **Accessibility Testing**: A comprehensive check for screen reader compatibility and keyboard navigation will be done to improve accessibility for all users.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-https://whszephyr.com/7324/ae wave-to-earth-how-the-korean-boy-band-conquered-global-stages/
-https://open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg
-https://kindie.fandom.com/wiki/Wave_to_Earth
-https://www.flaticon.com
-https://youtu.be/JX5qDzWDF4U?si=Mw8FWPw12gVMr9Yk
+- Music [Spotify](https://open.spotify.com/artist/069JTmv5ZDyPeZaCCXiCg)
+- Copied Text for About [Fandom](https://kindie.fandom.com/wiki/Wave_to_Earth)
+- Music Carousel - [Youtube](https://youtu.be/JX5qDzWDF4U?si=Mw8FWPw12gVMr9Yk)
 
 ### Media
-- The photos used in this site were obtained from ...
+- Pictures [whszephyr](https://whszephyr.com/7324/aewave-to-earth-how-the-korean-boy-band-conquered-global-stages/)
+- Social Media Icons [Flaticon](https://www.flaticon.com)
+- Album Cover Images [Spotify](https://open.spotify.com/artist/069JTmv5ZDyPeZaCCXiCg)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from Ed Sheeran's Website [EdSheeran](https://www.edsheeran.com/)
+- I received inspiration for this project from Taylor Swift's Website [TaylorSwift](https://www.taylorswift.com/)
+- I received inspiration for this project from Beyonce's Website [Beyonce](https://www.beyonce.com/)
