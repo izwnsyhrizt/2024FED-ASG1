@@ -69,6 +69,7 @@ header img {
     width: 100%;
     height: auto;
     overflow: hidden;
+
 }
 
 video {
@@ -559,6 +560,33 @@ footer{
 }
 
 /* tour.html */
+#concert-photo{
+    width:100%;
+}
+
+#tour-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:24px;
+    padding:16px;
+    background-color: #C0DEEE;
+    border-radius: 10px;
+    font-weight:1000;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#tour-button:hover {
+    background-color: #A7BBC7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+    
+
 .tour-container{
     padding:3em;
     display:flex;
@@ -568,7 +596,7 @@ footer{
 }
 
 .tour-container img{
-    margin-bottom: 2em;
+    margin: 2em;
 }
 
 .tour-container h1{
@@ -607,7 +635,7 @@ footer{
     font-weight:1000;
     color: black;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    transition: background-color545.641 0.3s ease, color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-size:20px;
 }
@@ -618,4 +646,42 @@ footer{
     transform: scale(1.05);
 }
 
-    
+/* about.html */
+.band-container{
+    padding:6em;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.band-container img{
+    width:60em;
+}
+
+
+.band-container p{
+    font-size:24px;
+    text-align: center;
+}
+
+.member-container{
+    display:flex;
+    justify-content: center;
+    gap:2em;
+    padding:6em;
+}
+
+.member-container img{
+    width:30em;
+}
+
+.member-container p{
+    width:30em;
+    font-size:30px;
+}
+
+.member-pic{
+    width: 100%;
+    object-fit: cover; 
+}

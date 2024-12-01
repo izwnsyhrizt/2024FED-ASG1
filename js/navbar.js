@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const links = document.querySelectorAll('.navlist a');
 
-    if (currentPage === "/index.html" || currentPage === "/about.html" || currentPage === "/") {
+    if (currentPage === "/index.html" || currentPage === "/about.html" || currentPage === "/tour.html"  || currentPage === "/") {
         links.forEach(link => {
             link.style.color = "white";
         });
