@@ -1,9 +1,7 @@
 # FED_S10257383F_Izwan_Asg1_Website
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+This project is a website for the band, wave to earth. This site is for fans or potential fans wishing to learn more about the band, such as their latest releases, music videos, and even book their tickets! In the homepage, they are able to see many pictures and videos of the band performing or their photoshoots. They can also view the band's latest release, and directed projects. Furthermore, they can also input their email and country to receive updates on the band. an In the music page, They can scroll through wave to earth's entire discography, including their albums and singles. In the tour page, they are able to view the upcoming world tour, with dates, locations, and are able to book tickets. In the about page, users are able to learn more about the band, and each and every member, with photos and descriptions. Each page also has a footer directing to the band's social media.
 
-Essentially, this part is your sales pitch.
- 
 ## Design Process
  
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.

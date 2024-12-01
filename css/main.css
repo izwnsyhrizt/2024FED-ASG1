@@ -4,6 +4,8 @@ body {
     overflow-x: hidden;
 }
 
+/* index.html */
+/* header */
 header {
     z-index: 2;
     display: flex;
@@ -85,6 +87,7 @@ video {
     transform: translate(-50%, -50%);
 }
 
+/* tickets banner */
 .banner-container{
     margin-top: 5em;
     display:flex;
@@ -129,6 +132,7 @@ video {
     transform: scale(1.05);
 }
 
+/* latest release */
 .release-container{
     margin-top: 5em;
     display:flex;
@@ -208,6 +212,7 @@ h1{
     margin-top:6em;
 }
 
+/* video carousel */
 .carousel-container {
     position: relative;
     width: 80%; 
@@ -287,6 +292,7 @@ h1{
     height:auto;
 }
 
+/* signup */
 .signup-container{
     margin: 3em;
     display:flex;
@@ -344,6 +350,7 @@ form{
     transform: scale(1.05); 
 }
 
+/* footer */
 footer{
     display:flex;
     justify-content: space-between;
@@ -369,6 +376,7 @@ footer{
     transform: scale(1.2); 
 }
 
+/* music.html */
 .album{
     width:100%;
 }
