@@ -1,6 +1,6 @@
 body {
     background-color: #E3E9FE;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow-x: hidden;
 }
 
@@ -17,18 +17,22 @@ header {
     box-sizing: border-box;
 }
 
-header img {
-    max-width: 250px;
+#logo {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#header-index{
+#header-index {
     position: absolute;
     display: flex;
     justify-content: space-between;
     justify-content: end;
 }
 
-#header-about{
+#header-about {
     position: absolute;
     display: flex;
     justify-content: space-between;
@@ -43,7 +47,7 @@ header img {
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 2em; 
+    gap: 2em;
 }
 
 .navlist li {
@@ -79,44 +83,36 @@ video {
     height: auto;
 }
 
-#logo{
-    position: absolute;
-    z-index:1;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 /* tickets banner */
-.banner-container{
+.banner-container {
     margin-top: 5em;
-    display:flex;
+    display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.banner-image{
+.banner-image {
     width: 80%;
 }
 
-.banner-box{
+.banner-box {
     background-color: #eeeeee;
-    width:80%;
-    height:8em;
-    display:flex;
+    width: 80%;
+    height: 8em;
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .banner-button {
     display: inline-block;
     width: 40%;
     height: 3em;
-    padding:0;
+    padding: 0;
     background-color: #C0DEEE;
     border-radius: 10px;
     font-size: 1.5rem;
-    font-weight:900;
+    font-weight: 900;
     color: black;
     text-align: center;
     line-height: 3em;
@@ -133,43 +129,43 @@ video {
 }
 
 /* latest release */
-.release-container{
+.release-container {
     margin-top: 5em;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-h1{
+h1 {
     font-size: 40px;
     font-weight: bolder;
 }
 
-.album-cover{
-    display:flex;
+.album-cover {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.album-cover img{
-    width:20em;
+.album-cover img {
+    width: 20em;
 }
 
-.album-cover h2{
+.album-cover h2 {
     margin-bottom: 5px;
 }
 
 
-.album-cover p{
-    margin:0;
+.album-cover p {
+    margin: 0;
 }
 
 .youtube-button {
     font-size: 1.2rem;
-    font-weight:900;
-    width:100%;
+    font-weight: 900;
+    width: 100%;
     display: inline-block;
     padding: 0.8em 1em;
     background-color: #C0DEEE;
@@ -179,12 +175,12 @@ h1{
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .youtube-button:hover {
-    background-color: #A7BBC7; 
-    transform: scale(1.05); 
+    background-color: #A7BBC7;
+    transform: scale(1.05);
 }
 
 .release-row {
@@ -195,7 +191,8 @@ h1{
     justify-content: center;
 }
 
-.album-cover, .youtube-container {
+.album-cover,
+.youtube-container {
     flex: 1;
 }
 
@@ -204,23 +201,23 @@ h1{
     height: 460px;
 }
 
-.W2E-walk{
-    display:flex;
+.W2E-walk {
+    display: flex;
     justify-content: center;
     align-items: center;
-    width:100%;
-    margin-top:6em;
+    width: 100%;
+    margin-top: 6em;
 }
 
 /* video carousel */
 .carousel-container {
     position: relative;
-    width: 80%; 
-    height: 100vh;  
+    width: 80%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;  
+    margin: 0 auto;
     flex-direction: column;
     margin-top: 5em;
 }
@@ -229,22 +226,22 @@ h1{
     display: flex;
     width: 100%;
     height: 100%;
-    transition: transform 1s ease; 
+    transition: transform 1s ease;
 }
 
 .carousel-item {
     min-width: 100%;
     height: 100%;
     opacity: 0;
-    visibility: hidden; 
-    transition: opacity 1s ease, visibility 0s linear 1s; 
+    visibility: hidden;
+    transition: opacity 1s ease, visibility 0s linear 1s;
     min-width: 100%;
 }
 
 .carousel-item.active {
-    opacity: 1; 
-    visibility: visible; 
-    transition: opacity 1s ease, visibility 0s linear 0s; 
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 1s ease, visibility 0s linear 0s;
 }
 
 
@@ -264,124 +261,124 @@ h1{
     cursor: pointer;
     font-size: 24px;
     transform: translateY(-50%);
-    z-index: 3; 
+    z-index: 3;
 }
 
 .prev {
-    left: -50px;  
+    left: -50px;
 }
 
 .next {
-    right: -50px;  
+    right: -50px;
 }
 
 .carousel-button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.gallery-container{
-    margin-top:5em;
-    display:flex;
+.gallery-container {
+    margin-top: 5em;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.w2e-image{
-    width:100%;
-    height:auto;
+.w2e-image {
+    width: 100%;
+    height: auto;
 }
 
 /* signup */
-.signup-container{
+.signup-container {
     margin: 3em;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #eeeeee;
-    padding:5em;
+    padding: 5em;
     border-radius: 10px;
 }
 
-.signup-container h1{
-    margin-bottom:1.5em;
+.signup-container h1 {
+    margin-bottom: 1.5em;
 }
 
-form{
-    width:100%;
-    display:flex;
+form {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap:50px;
+    gap: 50px;
 }
 
-.signup{
-    display:flex;
+.signup {
+    display: flex;
     justify-content: center;
-    gap:50px;
+    gap: 50px;
 }
 
-.signup-input{
-    width:450px;
-    height:3em;
-    border:0px;
-    padding:0 40px;
+.signup-input {
+    width: 450px;
+    height: 3em;
+    border: 0px;
+    padding: 0 40px;
     border-radius: 5px;
     appearance: none;
-    font-size:20px;
-    box-sizing: border-box; 
+    font-size: 20px;
+    box-sizing: border-box;
 }
 
-.signup-submit{
-    width:400px;
-    height:2.5em;
+.signup-submit {
+    width: 400px;
+    height: 2.5em;
     background-color: #C0DEEE;
     font-size: 1.5rem;
-    font-weight:900;
+    font-weight: 900;
     border-radius: 10px;
-    border:0;
+    border: 0;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .signup-submit:hover {
-    background-color: #A7BBC7; 
-    transform: scale(1.05); 
+    background-color: #A7BBC7;
+    transform: scale(1.05);
 }
 
 /* footer */
-footer{
-    display:flex;
+footer {
+    display: flex;
     justify-content: space-between;
     margin: 3em;
-    margin-bottom:1em;
+    margin-bottom: 1em;
     border-top: solid black 2px;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
 .footer-social-icons {
     display: flex;
     justify-content: center;
-    gap: 1.5em; 
+    gap: 1.5em;
 }
 
 .footer-social-icons a img {
-    width: 40px; 
-    height: 40px; 
+    width: 40px;
+    height: 40px;
     transition: transform 0.3s ease;
 }
 
 .footer-social-icons a img:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 /* music.html */
-.album{
-    width:100%;
+.album {
+    width: 100%;
 }
 
-.album-container{
+.album-container {
     align-items: center;
     display: flex;
     height: 400px;
@@ -390,8 +387,8 @@ footer{
     position: relative;
 }
 
-.album-item{
-    height:250px;
+.album-item {
+    height: 250px;
     width: 250px;
     opacity: 0;
     position: absolute;
@@ -401,79 +398,80 @@ footer{
     background-size: contain;
 }
 
-.album-1{
+.album-1 {
     left: 0;
-    opacity:.4;
+    opacity: .4;
     transform: translateX(-50%);
 }
 
 
-.album-2, .album-4{
+.album-2,
+.album-4 {
     height: 300px;
     opacity: 0.8;
     width: 300px;
     z-index: 1;
 }
 
-.album-2{
-    left:20%;
-    transform:translateX(-50%);
+.album-2 {
+    left: 20%;
+    transform: translateX(-50%);
 }
 
-.album-3{
+.album-3 {
     box-shadow: -2px 5px 33px 6px rgba(0, 0, 0, 0.35);
-    height:350px;
+    height: 350px;
     width: 350px;
-    opacity:1;
+    opacity: 1;
     left: 50%;
     transform: translateX(-50%);
-    z-index:2;
-    cursor:pointer;
+    z-index: 2;
+    cursor: pointer;
 }
 
-.album-4{
-    left:80%;
-    transform:translateX(-50%)
+.album-4 {
+    left: 80%;
+    transform: translateX(-50%)
 }
 
-.album-5{
-    left:100%;
-    opacity:.4;
-    transform:translateX(-50%);
+.album-5 {
+    left: 100%;
+    opacity: .4;
+    transform: translateX(-50%);
 }
 
-.album-controls{
-    display:flex;
+.album-controls {
+    display: flex;
     justify-content: center;
     margin: 25px 0;
     height: 100px;
 }
 
-.album-controls button{
+.album-controls button {
     background-color: transparent;
-    border:0;
-    cursor:pointer;
+    border: 0;
+    cursor: pointer;
     font-size: 30px;
     margin: 0 50px;
     padding: 0 12px;
     text-transform: capitalize;
 }
 
-.album-controls-button:focus{
-    outline:none;
+.album-controls-button:focus {
+    outline: none;
 }
 
-.album-controls-previous{
-    position:relative;
+.album-controls-previous {
+    position: relative;
 }
 
-.album-controls-previous::before{
+.album-controls-previous::before {
     border: solid #000;
     border-width: 0 5px 5px 0;
     content: '';
     display: inline-block;
-    height:5px;
-    left:-30px;
+    height: 5px;
+    left: -30px;
     padding: 10px;
     position: absolute;
     top: 25%;
@@ -482,21 +480,21 @@ footer{
     width: 5px;
 }
 
-.album-controls-previous:hover::before{
-    left:-40px;
+.album-controls-previous:hover::before {
+    left: -40px;
 }
 
-.album-controls-next{
-    position:relative;
+.album-controls-next {
+    position: relative;
 }
 
-.album-controls-next::before{
+.album-controls-next::before {
     border: solid #000;
     border-width: 0 5px 5px 0;
     content: '';
     display: inline-block;
-    height:5px;
-    right:-30px;
+    height: 5px;
+    right: -30px;
     padding: 10px;
     position: absolute;
     bottom: 25%;
@@ -505,83 +503,83 @@ footer{
     width: 5px;
 }
 
-.album-controls-previous:hover::before{
-    right:-40px;
+.album-controls-previous:hover::before {
+    right: -40px;
 }
 
-.album-nav{
+.album-nav {
     bottom: -15px;
-    display:flex;
+    display: flex;
     justify-content: center;
     list-style: none;
-    padding:0;
-    position:absolute;
-    width:100%;
+    padding: 0;
+    position: absolute;
+    width: 100%;
 }
 
-.album-nav li{
+.album-nav li {
     background: #ccc;
     border-radius: 50%;
     height: 10px;
     margin: 0 16px;
-    width:10px;
+    width: 10px;
 }
 
-.album-nav li.album-item-selected{
+.album-nav li.album-item-selected {
     background: #555;
 }
 
 /* music-albums */
-.music-container{
+.music-container {
     display: flex;
     justify-content: center;
-    gap:8em;
-    padding:3em;
+    gap: 8em;
+    padding: 3em;
 }
 
-.music-album{
+.music-album {
     width: 500px;
 
 }
 
-.music-info{
-    display:flex;
+.music-info {
+    display: flex;
     flex-direction: column;
     gap: 4em;
 }
 
-.music-info h1{
-    margin:0px;
+.music-info h1 {
+    margin: 0px;
 }
 
-.music-info ol{
-    margin:0px;
-    padding:0;
+.music-info ol {
+    margin: 0px;
+    padding: 0;
     list-style-position: inside;
-    font-size:26px;
+    font-size: 26px;
 }
 
-.music-video{
-    display:flex;
+.music-video {
+    display: flex;
     justify-content: center;
-    padding:3em;
+    padding: 3em;
 }
 
 /* tour.html */
-#concert-photo{
-    width:100%;
+#concert-photo {
+    width: 100%;
 }
 
-#tour-button{
+#tour-button {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size:24px;
-    padding:16px;
+    font-size: 24px;
+    padding: 16px;
     background-color: #C0DEEE;
     border-radius: 10px;
-    font-weight:1000;
+    font-weight: 1000;
     color: black;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
@@ -593,23 +591,23 @@ footer{
     background-color: #A7BBC7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-    
 
-.tour-container{
-    padding:3em;
-    display:flex;
+
+.tour-container {
+    padding: 3em;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.tour-container img{
+.tour-container img {
     margin: 2em;
 }
 
-.tour-container h1{
+.tour-container h1 {
     text-transform: uppercase;
-    margin:0;
+    margin: 0;
 }
 
 .tours {
@@ -627,25 +625,25 @@ footer{
     align-items: center;
     padding: 2em;
     justify-content: space-between;
-    width:100%;
+    width: 100%;
 }
 
-.tour h1{
+.tour h1 {
     font-size: 30px;
     text-align: center;
 }
 
-.tour button{
+.tour button {
     width: 186.01px;
-    height:45px;
+    height: 45px;
     background-color: #C0DEEE;
     border-radius: 10px;
-    font-weight:1000;
+    font-weight: 1000;
     color: black;
     cursor: pointer;
     transition: background-color545.641 0.3s ease, color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    font-size:20px;
+    font-size: 20px;
 }
 
 .tour button:hover {
@@ -655,41 +653,335 @@ footer{
 }
 
 /* about.html */
-.band-container{
-    padding:6em;  
+.band-container {
+    padding: 6em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.band-container img{
-    width:60em;
+.band-container img {
+    width: 60em;
 }
 
 
-.band-container p{
-    font-size:24px;
+.band-container p {
+    font-size: 24px;
     text-align: center;
 }
 
-.member-container{
-    display:flex;
+.member-container {
+    display: flex;
     justify-content: center;
-    gap:2em;
-    padding:6em;
+    gap: 2em;
+    padding: 6em;
 }
 
-.member-container img{
-    width:30em;
+.member-container img {
+    width: 30em;
 }
 
-.member-container p{
-    width:30em;
-    font-size:30px;
+.member-container p {
+    width: 30em;
+    font-size: 30px;
 }
 
-.member-pic{
+.member-pic {
     width: 100%;
-    object-fit: cover; 
+    object-fit: cover;
+}
+
+/* Mobile Devices (Portrait) */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+
+    #logo img {
+        width: 1px;
+    }
+
+    header {
+        padding: 1em;
+        margin-right: 2em;
+    }
+
+    .navlist ul {
+        flex-direction: column;
+        gap: 1.5em;
+        padding-left: 0;
+    }
+
+    .navlist li {
+        font-size: 16px;
+    }
+
+    .video-container {}
+
+    .banner-image {
+        width: 100%;
+    }
+
+    .banner-box {
+        width: 100%;
+        height: auto;
+        padding: 1em;
+    }
+
+    .banner-button {
+        width: 50%;
+        font-size: 12px
+    }
+
+    .release-container h1 {
+        font-size: 24px;
+    }
+
+    .album-cover h2 {
+        font-size: 24px;
+    }
+
+    .release-row {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .youtube-button {
+        width: 80%;
+    }
+
+    .youtube-container iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .carousel-container h1 {
+        font-size: 24px;
+    }
+
+    .carousel-container {
+        height: 40vh;
+    }
+
+    .carousel-button {
+        font-size: 24px;
+    }
+
+    .prev {
+        left: 1px;
+    }
+
+    .next {
+        right: 1px;
+    }
+
+    .gallery-container h1 {
+        font-size: 24px;
+    }
+
+
+    .gallery-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .w2e-image {
+        width: 100%;
+    }
+
+    .signup-container {
+        margin: 0;
+        padding: 1em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    .signup-container h1 {
+        font-size: 18px;
+    }
+
+    .signup-input {
+        width: 100px;
+        height: 24px;
+        font-size: 10px;
+    }
+
+    .signup-submit {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .footer-social-icons a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    header img {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+    nav.navlist ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .album-container {
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+    }
+
+    .album-item {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    .album-controls {
+        margin-top: 15px;
+        padding: 10px;
+    }
+
+    .album-controls button {
+        font-size: 12px;
+        padding: 8px 12px;
+        margin: 0 5px;
+    }
+
+    .music-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .music-album {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .music-info {
+        text-align: center;
+    }
+
+    .music-info h1 {
+        font-size: 18px;
+    }
+
+    .music-info ol {
+        font-size: 14px;
+        padding-left: 20px;
+        text-align: left;
+    }
+
+    .music-info ol li {
+        margin-bottom: 5px;
+    }
+
+    .tour-container {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .tour-container img {
+        width: 280px;
+    }
+
+    .tour-container h1 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .tour {
+        margin-bottom: 15px;
+    }
+
+    .tour h1 {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .tour a button {
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .signup-container {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .signup-container h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .signup-input {
+        padding: 8px;
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    .signup-submit {
+        padding: 10px 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .band-container {
+        text-align: center;
+        margin-bottom: 20px;
+        padding:0
+    }
+
+    .band-container img {
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .band-container p {
+        font-size: 12px;
+    }
+
+    .member-container {
+        padding:0;
+        height: 300px;
+        gap:0;
+    }
+
+    .member-container p {
+        font-size: 8px;
+    }
+
+    .member-container img {
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    section p {
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 0 15px;
+    }
+
+    .video-container video {
+        width: 100%;
+        height: auto;
+    }
 }
