@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const currentPage = window.location.pathname;
+    const currentPage = window.location.pathname
+    console.log("Current page:", currentPage);
 
     const links = document.querySelectorAll('.navlist a');
 
