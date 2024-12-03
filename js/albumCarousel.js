@@ -51,10 +51,12 @@ class Carousel {
     }
 
     makeAlbumsClickable() {
+        const basePath = window.location.origin + window.location.pathname.split("/").slice(0, -1).join("/");
+    
         this.carouselArray.forEach((album, index) => {
             album.addEventListener("click", () => {
                 const albumId = index + 1;
-                window.location.href = `/album${albumId}.html`;
+                window.location.href = `${basePath}/album${albumId}.html`;
             });
         });
     }
