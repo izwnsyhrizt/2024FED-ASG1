@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const currentPage = window.location.pathname
+    const currentPage = window.location.pathname.split("/").pop();
     console.log("Current page:", currentPage);
 
     const links = document.querySelectorAll('.navlist a');
 
-    if (currentPage === "/index.html" || currentPage === "/about.html" || currentPage === "/tour.html"  || currentPage === "/") {
+    const pages = ["index.html", "about.html", "tour.html"];
+
+    if (pages.includes(currentPage)) {
         links.forEach(link => {
             link.style.color = "white";
         });
