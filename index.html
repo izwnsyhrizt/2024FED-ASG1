@@ -1,140 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Wave to Earth Index</title>
-</head>
-
-<body>
-    <!-- Header -->
-    <header id="header-index">
-        <nav class="navlist">
-            <ul>
-                <li><a href="music.html">Music</a></li>
-                <li><a href="tour.html">Tour</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Logo -->
-    <div id="logo">
-        <img src="images/W2E-white-logo.png" alt="W2E Logo">
-    </div>    
-
-    <!-- Background Video -->
-    <div class="video-container">
-        <video autoplay loop muted>
-            <source src="images/W2E-video.mp4" type="video/mp4">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <title>Wave to Earth Index</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="header-index">
+            <nav class="navlist">
+                <ul>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="tour.html">Tour</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Logo -->
+        <div id="logo">
+            <img src="images/W2E-white-logo.png" alt="W2E Logo">
+        </div>    
+        <!-- Background Video -->
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="images/W2E-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Tickets Banner -->
+        <section class="banner-container">
+            <img class="banner-image" src="images/tour_pic.jpg" alt="Tour Picture">
+            <div class="banner-box">
+                <a href="tour.html" class="banner-button">Get tickets here!</a>
+            </div>
+        </section>    
+        <!-- Latest Release -->
+        <section class="release-container">
+            <h1>Latest Release</h1>
+            <div class="release-row">
+                <div class="album-cover">
+                    <img src="images/PWE-album.jpg" alt="Play with Earth! 0.03 Album Cover">
+                    <h2>Play with Earth! 0.03</h2>
+                    <p>Available now!</p>
+                    <a href="https://youtu.be/t3Lwj7lpZGo?si=6rs2Z0jq-ioz6OHZ" class="youtube-button">
+                        Stream now!
+                    </a>
+                </div>
+                <div class="youtube-container">
+                    <iframe src="https://www.youtube.com/embed/t3Lwj7lpZGo?si=eyjQozFtNHOAU-GF" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Walking Animation -->
+        <video class="W2E-walk" autoplay loop muted>
+            <source src="images/W2E-walking.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-    </div>
-
-    <!-- Tickets Banner -->
-    <section class="banner-container">
-        <img class="banner-image" src="images/tour_pic.jpg" alt="Tour Picture">
-        <div class="banner-box">
-            <a href="tour.html" class="banner-button">Get tickets here!</a>
-        </div>
-    </section>    
-
-    <!-- Latest Release -->
-    <section class="release-container">
-        <h1>Latest Release</h1>
-        <div class="release-row">
-            <div class="album-cover">
-                <img src="images/PWE-album.jpg" alt="Play with Earth! 0.03 Album Cover">
-                <h2>Play with Earth! 0.03</h2>
-                <p>Available now!</p>
-                <a href="https://youtu.be/t3Lwj7lpZGo?si=6rs2Z0jq-ioz6OHZ" class="youtube-button">
-                    Stream now!
+        <!-- Directed Projects - Video Carousel -->
+        <section class="carousel-container">
+            <h1>Directed Projects</h1>
+            <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="carousel-items">
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/6_AGRBNKPoc?si=1Sz2x9cXo1AIbD6Y" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/VzayimarIog?si=kotz3ntlxCdYBeZJ" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="carousel-item">
+                    <iframe src="https://www.youtube.com/embed/hUnnAhAfTZI?si=7y6nD3ULJxO9WSuz" frameborder="0"
+                        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+        </section>
+        <!-- Gallery -->
+        <section class="gallery-container">
+            <h1>Gallery</h1>
+            <img class="w2e-image" src="images/W2E-grp1.jpg" alt="W2E-Band">
+            <video autoplay loop muted class="w2e-image" src="images/w2e-video2.mp4" alt="W2E-Video"></video>
+            <img class="w2e-image" src="images/W2E-grp2.webp" alt="W2E-Band">
+            <img class="w2e-image" src="images/W2E-grp3.jpg" alt="W2E-Band">
+        </section>
+        <!-- Email Signup -->
+        <section class="signup-container">
+            <h1>Sign up to receive updates</h1>
+            <form>
+                <div class="signup">
+                    <input class="signup-input" type="email" placeholder="Email Address" required>
+                    <select class="signup-input" required>
+                        <option value="" disabled selected>Select your country</option>
+                        <option value="usa">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="canada">Canada</option>
+                        <option value="australia">Australia</option>
+                        <option value="india">India</option>
+                    </select>
+                </div>
+                <button type="submit" class="signup-submit">Submit</button>
+            </form>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p>© 2024 Wave to Earth. All Rights Reserved.</p>
+            <nav class="footer-social-icons">
+                <a href="https://www.instagram.com/wave_to_earth/">
+                    <img src="images/instagram.png" alt="Instagram" />
                 </a>
-            </div>
-            <div class="youtube-container">
-                <iframe src="https://www.youtube.com/embed/t3Lwj7lpZGo?si=eyjQozFtNHOAU-GF" title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
-    <!-- Walking Animation -->
-    <video class="W2E-walk" autoplay loop muted>
-        <source src="images/W2E-walking.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-
-    <!-- Directed Projects - Video Carousel -->
-    <section class="carousel-container">
-        <h1>Directed Projects</h1>
-        <button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
-        <div class="carousel-items">
-            <div class="carousel-item">
-                <iframe src="https://www.youtube.com/embed/6_AGRBNKPoc?si=1Sz2x9cXo1AIbD6Y" frameborder="0"
-                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="carousel-item">
-                <iframe src="https://www.youtube.com/embed/VzayimarIog?si=kotz3ntlxCdYBeZJ" frameborder="0"
-                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <div class="carousel-item">
-                <iframe src="https://www.youtube.com/embed/hUnnAhAfTZI?si=7y6nD3ULJxO9WSuz" frameborder="0"
-                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-        </div>
-        <button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
-    </section>
-
-    <!-- Gallery -->
-    <section class="gallery-container">
-        <h1>Gallery</h1>
-        <img class="w2e-image" src="images/W2E-grp1.jpg" alt="W2E-Band">
-        <video autoplay loop muted class="w2e-image" src="images/w2e-video2.mp4" alt="W2E-Video"></video>
-        <img class="w2e-image" src="images/W2E-grp2.webp" alt="W2E-Band">
-        <img class="w2e-image" src="images/W2E-grp3.jpg" alt="W2E-Band">
-    </section>
-
-    <!-- Email Signup -->
-    <section class="signup-container">
-        <h1>Sign up to receive updates</h1>
-        <form>
-            <div class="signup">
-                <input class="signup-input" type="email" placeholder="Email Address" required>
-                <select class="signup-input" required>
-                    <option value="" disabled selected>Select your country</option>
-                    <option value="usa">United States</option>
-                    <option value="uk">United Kingdom</option>
-                    <option value="canada">Canada</option>
-                    <option value="australia">Australia</option>
-                    <option value="india">India</option>
-                </select>
-            </div>
-            <button type="submit" class="signup-submit">Submit</button>
-        </form>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2024 Wave to Earth. All Rights Reserved.</p>
-        <nav class="footer-social-icons">
-            <a href="https://www.instagram.com/wave_to_earth/">
-                <img src="images/instagram.png" alt="Instagram" />
-            </a>
-            <a href="https://www.youtube.com/channel/wave_to_earth/">
-                <img src="images/youtube.png" alt="YouTube" />
-            </a>
-            <a href="https://twitter.com/wave_to_earth">
-                <img src="images/twitter.png" alt="Twitter" />
-            </a>
-        </nav>
-    </footer>
-</body>
-<script src="js/videoCarousel.js"></script>
-<script src="js/navbar.js"></script>
-
+                <a href="https://www.youtube.com/channel/wave_to_earth/">
+                    <img src="images/youtube.png" alt="YouTube" />
+                </a>
+                <a href="https://twitter.com/wave_to_earth">
+                    <img src="images/twitter.png" alt="Twitter" />
+                </a>
+            </nav>
+        </footer>
+        <script src="js/videoCarousel.js"></script>
+        <script src="js/navbar.js"></script>
+    </body>
 </html>
