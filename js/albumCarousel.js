@@ -50,6 +50,7 @@ class Carousel {
         });
     }
 
+    // Makes each album clickable redirecting to each album description
     makeAlbumsClickable() {
         const basePath = window.location.origin + window.location.pathname.split("/").slice(0, -1).join("/");
     
