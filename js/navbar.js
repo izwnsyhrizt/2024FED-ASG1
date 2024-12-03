@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const currentPage = window.location.pathname.split("/").pop();
+    const path = window.location.pathname;
+    const currentPage = path.endsWith("/") 
+        ? "index.html" 
+        : path.split("/").pop();
     console.log("Current page:", currentPage);
 
     const links = document.querySelectorAll('.navlist a');
