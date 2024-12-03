@@ -590,6 +590,7 @@ footer {
 #tour-button:hover {
     background-color: #A7BBC7;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
 }
 
 
@@ -641,14 +642,15 @@ footer {
     font-weight: 1000;
     color: black;
     cursor: pointer;
-    transition: background-color545.641 0.3s ease, color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 20px;
+    border: 0;
 }
 
 .tour button:hover {
     background-color: #A7BBC7;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transform: scale(1.05);
 }
 
