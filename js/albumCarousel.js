@@ -1,3 +1,4 @@
+// album carousel for music page
 class Carousel {
     constructor(container, items, controls) {
         this.carouselContainer = container;

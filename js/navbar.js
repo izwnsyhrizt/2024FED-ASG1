@@ -1,3 +1,4 @@
+// to change navigation bar colour according to page
 document.addEventListener("DOMContentLoaded", function () {
     const path = window.location.pathname;
     const currentPage = path.endsWith("/") 
